@@ -1,0 +1,73 @@
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Layout CSS */
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+
+/* Footer */
+
+#push,#footer {
+  height: 60px;
+}
+
+#footer {
+  background-color: #000;
+
+}
+
+.container .text {
+  margin: 20px 0;
+  color: #FFF;
+}
+
+/* Navbar */
+
+.navbar-inner {
+  background-color: #000;
+
+}
+
+
+/* Home Layout */
+
+.home {
+    width:100%; 
+    background-color: #FFF;      
+    border: 1px solid #dbdbea; 
+    overflow: hidden;
+    padding:20px;
+    margin-top: -20px;
+}
+
+/* Responsive Goodness */
+
+@media (max-width: 767px) {
+  
+  .navbar-inner {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+

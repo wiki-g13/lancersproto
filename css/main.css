@@ -1,12 +1,12 @@
-html,body {
+
+html,
+body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-color:#EEE; 
 }
 
-/* Layout CSS */
-
+/* Wrapper for page content to push down footer */
+      
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -15,69 +15,31 @@ html,body {
   margin: 0 auto -60px;
 }
 
+#wrap > .container {
+  padding-top: 90px;
+}
+.container .credit {
+  margin: 20px 0;
+}
 
-/* Footer */
 
-#push,#footer {
+/* Navbar */
+.navbar-inner {
+  background-color: #000;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
   height: 60px;
 }
 
 #footer {
   background-color: #000;
-
 }
 
-.container .text {
-  margin: 20px 0;
-  color: #FFF;
-}
-
-/* Navbar */
-
-.navbar-inner {
-  background-color: #000;
-
-}
-
-/* Home Layout */
-
-.home {
-    width:100%; 
-    text-align: center;
-    overflow: hidden;
-    padding:20px;
-    margin-top: -20px;
-}
-
-.home h1 {
-  font-size: 80px;
-  padding: 50px 0 10px 0;
-}
-
-.home p {
-  font-size: 20px;
-}
-
-/* Responsive Goodness */
-
-@media (max-width: 1400px) {  /* Laptop */
-
-}
-
-         
-@media (max-width: 1024px) {  /* iPad Landscape */
-
-}
-
-@media (max-width: 767px) {  /* iPad Portrait */
-  
-  .navbar-inner {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
   #footer {
     margin-left: -20px;
     margin-right: -20px;
@@ -86,32 +48,3 @@ html,body {
   }
 }
 
-@media (max-width: 685px) {  /* Samsung Galaxy Landscape */
-
-
-}
-
-@media (max-width: 600px) {  /* Amazon Kindle Portrait */
-
-}
-
-@media (max-width: 568px)  { /* iPhone 5 Landscape */
-
-}
-
-@media (max-width: 480px)  { /* iPhone 3 & 4 Landscape */
-
-}
-
-@media (max-width: 380px) {  /* Samsung Galaxy Portrait */
-
-}
-
-@media (max-width: 320px) {  /* iPhone 3,4 & 5 Portrait - old Android Landscape */
-
-}
-
-@media (max-width: 240px) {  /* old Android Portrait */
-
-
-}

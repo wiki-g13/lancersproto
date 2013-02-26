@@ -20,59 +20,52 @@
 </head>
 <body>
 
-<div id="wrap">
+    <div id="wrap">
 
-<div class="navbar navbar-fixed-top"> <!-- navbar start -->
-  <div class="navbar-inner">
-    <div class="container">
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
+            <a class="brand" href="#">Project name</a>
             
-      <a class="brand" href="#">Lancers</a>
-           
-      <div class="nav-collapse collapse">
-            
-        <form class="navbar-form pull-right" method="POST" action="">
+            <div class="nav-collapse collapse">
+              
+            <form class="navbar-form pull-right" method="POST" action="">
           
-          <input class="input-medium" type="text" placeholder="Username" name="">
-          <input class="input-medium" type="password" placeholder="Password" name="">
-          <input class="btn" type="submit" value="Login"/>
+            <input class="input-medium" type="text" placeholder="Username" name="">
+            <input class="input-medium" type="password" placeholder="Password" name="">
+            <input class="btn" type="submit" value="Login"/>
 
-        </form>
-
+            </form>
+             
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
       </div>
 
+      <!-- Begin page content -->
+      <div class="container">
+
+          <h1>test1</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut tortor arcu, quis convallis mi. Duis semper blandit nunc, a tincidunt libero condimentum a. Donec tempor pharetra ligula, at luctus tellus tempus eu. Nunc rhoncus congue malesuada. Quisque vitae neque nibh, at rutrum ipsum. Sed bibendum justo sed nunc imperdiet volutpat. Proin egestas magna quis mi lobortis dapibus. Nunc sem nulla, suscipit ac volutpat bibendum, egestas ut lectus. Aliquam bibendum ante et elit rhoncus malesuada. Aliquam ante arcu, ullamcorper ut vulputate nec, egestas ac elit.</p>
+      </div>
+
+      <div id="push"></div>
     </div>
-  </div>
-</div> <!-- navbar end -->
 
-<div class="container"> 
-  <div class="row-fluid">
-    <div class="span12 home">
-
-      <h1>Creative Community</h1>
-      <p>Find a Freelancer or local job</p>
-
-      <img src="http://placehold.it/1000x300&text=Carousel" style="margin:70px 0 70px 0;">
-
-      <button class="btn btn-large" type="button">Signup Now!</button>
-
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Fixed footer</a>.</p>
+      </div>
     </div>
-  </div>
-</div>
 
-<div id="push"></div>
-</div>
-
-<div id="footer">
-    <div class="container">
-        <p class="text">Copyright - HSAD 2013</p>
-    </div>
-</div>
 
 <!-- javascript -->
 <script src="js/jquery-1.9.1.min.js"></script>

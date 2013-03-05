@@ -42,6 +42,7 @@ body {
 }
 .work {text-align: right;}
 .bringin {padding: 0 0 0 5%;}
+.port{ width:100%; height:auto; background-color: #000;}
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
   #footer {

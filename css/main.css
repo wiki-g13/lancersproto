@@ -47,8 +47,7 @@ body {
 .profileimage {background-color: #fff; border: solid; border-color: #000;width: 150px; height: 150px; margin-top: 20px;}
 .portbg{ width:85%; height:90px; background-color: #000;margin-top: -90px;}
 .profilepageimage {background-color: #fff; border: solid; border-color: #000;width: 150px; height: 150px; margin-top: -30px;}
-.timelineimage { width:85%; height:170px; background-color: #ccc;}
-.skills {margin-left: 5px;}
+.timelineimage { width:85%; height:150px; background-color: #ccc;}
 .messages {
     border-collapse: collapse;
     border-spacing: 0;
@@ -56,6 +55,8 @@ body {
     margin-left: 2%;
     width: 85%;
     }
+.profileskills {margin-top: -4%; padding: 0 0 0 5%;} 
+.mywork {margin-left: -40%; background-color:#ccc; width:100%; height:150px;}
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
   #footer {
